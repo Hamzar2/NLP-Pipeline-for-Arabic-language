@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import json
 
-client = MongoClient("mongodb+srv://hamzadr2:azer1234@cluster0.feu8uxm.mongodb.net/")
+client = MongoClient("mongodb+srv:/username:password@cluster0.feu8uxm.mongodb.net/")
 
 db = client['arabic_scrapy']
 collection = db['arabic']
